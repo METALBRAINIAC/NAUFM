@@ -1,0 +1,16 @@
+{
+  "name": "naufm-charts-backend",
+  "version": "1.0.0",
+  "description": "Backend service that scrapes ARIA, UK Official, and Aotearoa music charts for the NAU FM website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
